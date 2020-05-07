@@ -6,7 +6,7 @@ id int auto_increment not null primary key,
 Candidate_name varchar(25)null,
 Candidate_mail varchar(25)null,
 Candidate_gender varchar(25)null,
-Candidate_age int not null primary key
+Candidate_age int not null
 );
 insert into 
 Candidates(id,candidate_name,candidate_mail,candidate_gender,candidate_age)
